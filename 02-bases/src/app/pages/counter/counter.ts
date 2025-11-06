@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, signal } from "@angular/core";
 
 @Component({
-    templateUrl: "./counter.component.html",
+    templateUrl: "./counter.html",
     styles: `
         button {
             padding: 5px
@@ -11,7 +11,7 @@ import { ChangeDetectionStrategy, Component, signal } from "@angular/core";
     `,
     changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class CounterComponent {
+export class CounterPage {
     counter = 10;
     counterSignal = signal(10);
 

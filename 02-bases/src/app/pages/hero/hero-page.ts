@@ -3,9 +3,9 @@ import { Component, computed, signal } from "@angular/core";
 
 @Component({
     imports: [UpperCasePipe],
-    templateUrl: "./hero-page.component.html",
+    templateUrl: "./hero-page.html",
 })
-export class HeroPageComponent {
+export class HeroPage {
     protected name = signal('Ironman');
     protected age = signal(45);
 
